@@ -35404,6 +35404,15 @@ struct CreateTrail_tB6F4EA1F1960FDEAC10E34A27FEBBE560BA79690  : public MonoBehav
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___currentTrail_7;
 };
 
+// CutModule
+struct CutModule_tD5C03B47611D588E80FEB25705E71E87A53B9FDD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject CutModule::gameObject1
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject1_4;
+	// UnityEngine.GameObject CutModule::gameObject2
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject2_5;
+};
+
 // UnityEngine.Rendering.UI.DebugUIHandlerCanvas
 struct DebugUIHandlerCanvas_t42F6FDECA89A5D5F3C1534DC37FABB37E1401209  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -47304,6 +47313,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5606[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5609[3] = 
 {
 	static_cast<int32_t>(offsetof(AnimationScript_t02614C019906BE34CDD3CEDD0811A724AF6AAFD0, ___LeftHand_4)),static_cast<int32_t>(offsetof(AnimationScript_t02614C019906BE34CDD3CEDD0811A724AF6AAFD0, ___RightHand_5)),static_cast<int32_t>(offsetof(AnimationScript_t02614C019906BE34CDD3CEDD0811A724AF6AAFD0, ___rotationAngle_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5610[2] = 
+{
+	static_cast<int32_t>(offsetof(CutModule_tD5C03B47611D588E80FEB25705E71E87A53B9FDD, ___gameObject1_4)),static_cast<int32_t>(offsetof(CutModule_tD5C03B47611D588E80FEB25705E71E87A53B9FDD, ___gameObject2_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5611[3] = 
 {
 	static_cast<int32_t>(offsetof(ConsoleToText_tA407DE107093EA00EC6FE5E1D63C23DFA60D90AC, ___debugText_4)),static_cast<int32_t>(offsetof(ConsoleToText_tA407DE107093EA00EC6FE5E1D63C23DFA60D90AC, ___output_5)),static_cast<int32_t>(offsetof(ConsoleToText_tA407DE107093EA00EC6FE5E1D63C23DFA60D90AC, ___stack_6)),};

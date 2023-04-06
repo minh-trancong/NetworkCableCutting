@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - networkcable
+  - Status1
+  - Status
   layers:
   - Default
   - TransparentFX
